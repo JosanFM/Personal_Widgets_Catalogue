@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/config/manu/manu_items.dart';
+import 'package:widgets_app/config/menu/menu_items.dart';
 
 
 
