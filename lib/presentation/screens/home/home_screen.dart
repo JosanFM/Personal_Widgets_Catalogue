@@ -13,9 +13,18 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    final colors = Theme.of(context).colorScheme;
+
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter + Material 3'),
+        title: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text('Personal Widgets Catalogue' ,style: TextStyle(fontSize:20, fontWeight: FontWeight.bold ),
+          ),
+        ),
+        backgroundColor: colors.primary,
+        
       ),
       body: const _HomeView(),
     );
