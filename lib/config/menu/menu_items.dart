@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MenuItem {
   final String title;
@@ -56,5 +55,12 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Various controls and forms',
     link: '/ui-controls',
     icon: Icons.assignment,
+  ),
+
+  MenuItem(
+    title: 'Introducción a la aplicación',
+    subTitle: 'Pequeño tutorial introductorio',
+    link: '/tutorial',
+    icon: Icons.school,
   ),
 ];
