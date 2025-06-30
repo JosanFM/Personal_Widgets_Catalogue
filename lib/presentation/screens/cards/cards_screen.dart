@@ -200,7 +200,7 @@ class _CardType4 extends StatelessWidget {
             alignment: Alignment.topRight,
             child: Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(134, 255, 255, 255),
+                color: const Color.fromARGB(133, 38, 109, 150),
                 borderRadius: BorderRadius.circular(20),
                 
               ),

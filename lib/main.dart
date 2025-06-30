@@ -15,7 +15,8 @@ class MainApp extends StatelessWidget {
       title: 'Catálogo Personal de Widgets',
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme().getTheme(), // Sin parámetros, usa el color fijo
+      theme: AppTheme(selectedColor: 0).getTheme(), 
     );
   }
 }
+
