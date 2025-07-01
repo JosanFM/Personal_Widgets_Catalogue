@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
         title: Padding(
           padding: const EdgeInsets.fromLTRB(0, 0, 10, 0),
           child: Text(
-            'Personal Widgets Catalogue',
+            'MY FEATURES WITH FLUTTER',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
         ),
